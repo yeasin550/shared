@@ -1,0 +1,107 @@
+[
+  {
+    "image": "https://img.freepik.com/free-photo/two-judokas-fighters-fighting-men_155003-10228.jpg?w=740&t=st=1686326877~exp=1686327477~hmac=1a5875e5e1b2c95b3ab64fb023ab45a65a86fca5de914c491c8d2b436e886118",
+    "name": "Karate",
+    "instructorName": "Sensei Nakamura",
+    "availableSeats": 10,
+    "price": 99.99
+  },
+  {
+    "image": "https://img.freepik.com/free-photo/mma-two-professional-fighters-punching-boxing-isolated-blue-wall-neon_155003-15575.jpg?w=740&t=st=1686326937~exp=1686327537~hmac=46a3120e216df9b59477a25f5d471acd2a66c621a2787d2d4cb441974f26bd62",
+    "name": "Taekwondo",
+    "instructorName": "Master Kim",
+    "availableSeats": 5,
+    "price": 149.99
+  },
+  {
+    "image": "https://img.freepik.com/free-photo/two-judokas-fighters-posing-gray_155003-4190.jpg?w=740&t=st=1686326920~exp=1686327520~hmac=57ee0bf89de5a705fb9071c6d82d9b6b2d23f829b51867a86a6117f2f488ba05",
+    "name": "Jiu-Jitsu",
+    "instructorName": "Professor Silva",
+    "availableSeats": 3,
+    "price": 79.99
+  },
+  {
+    "image": "https://img.freepik.com/free-photo/man-white-kimono-training-karate_155003-317.jpg?w=740&t=st=1686326999~exp=1686327599~hmac=208e62b14227c102438414f3cbfd21709371718bf1dbaa84a2362a785289af8e",
+    "name": "Muay Thai",
+    "instructorName": "Coach Thompson",
+    "availableSeats": 7,
+    "price": 119.99
+  },
+  {
+    "image": "https://img.freepik.com/free-photo/man-white-kimono-training-karate_155003-314.jpg?w=740&t=st=1686327037~exp=1686327637~hmac=01f466eb60f51760a06e973782ecb5a21462540215366838bd6b5f4a72acd90a",
+    "name": "Krav Maga",
+    "instructorName": "instructorName Davis",
+    "availableSeats": 12,
+    "price": 69.99
+  },
+  {
+    "image": "https://img.freepik.com/free-photo/karate-girl-with-black-belt_155003-607.jpg?w=740&t=st=1686327074~exp=1686327674~hmac=77408482d8b27efe19f9da68d7011467bcbaf9f84cafdf0fae243eaaa2c50dac",
+    "name": "Kung Fu",
+    "instructorName": "Sifu Wilson",
+    "availableSeats": 8,
+    "price": 89.99
+  },
+  {
+    "image": "https://img.freepik.com/free-photo/preschooler-boy-dressed-white-karate-kimono-with-orange-belt_613910-1994.jpg?w=740&t=st=1686327105~exp=1686327705~hmac=c183670c3fce2b0246e76e63fc9a84e3a366120d608917056a305b8d2e7bcb6b",
+    "name": "Capoeira",
+    "instructorName": "Mestre Garcia",
+    "availableSeats": 4,
+    "price": 109.99
+  },
+  {
+    "image": "https://img.freepik.com/free-photo/karate-fighters-tatami-fighting-championship_654080-1918.jpg?w=740&t=st=1686327174~exp=1686327774~hmac=fe851c9431afe848266ca8ad7b38fcf721d8f2087e8027c12c6a57820aaab552",
+    "name": "Boxing",
+    "instructorName": "Coach Anderson",
+    "availableSeats": 2,
+    "price": 129.99
+  },
+  {
+    "image": "https://img.freepik.com/free-photo/full-length-studio-shot-two-women-taekwondo-athletes-training-isolated-black-background_155003-45455.jpg?w=740&t=st=1686327358~exp=1686327958~hmac=8386310c362330d8a4d7850bfced5b9e72f61c0f4ef8da3de895806b1914a921",
+    "name": "Kickboxing",
+    "instructorName": "instructorName Martinez",
+    "availableSeats": 6,
+    "price": 59.99
+  },
+  {
+    "image": "https://img.freepik.com/free-photo/two-men-fighting-aikido-training-martial-arts-school_155003-43587.jpg?w=740&t=st=1686327302~exp=1686327902~hmac=4b82f35c6e46e4f1f18cdb2ed5c9bfc622db48e16a4f885126fee7da285951c3",
+    "name": "Wrestling",
+    "instructorName": "Coach Taylor",
+    "availableSeats": 9,
+    "price": 139.99
+  },
+  {
+    "image": "https://img.freepik.com/free-photo/muscular-male-boxer-training-outdoors_7502-7667.jpg?w=740&t=st=1686327422~exp=1686328022~hmac=bc256a279da81dee2a373ddfe5fc6e49f0fa69d1447e060135defca2f501cd43",
+    "name": "Aikido",
+    "instructorName": "Sensei Hernandez",
+    "availableSeats": 11,
+    "price": 79.99
+  },
+  {
+    "image": "https://img.freepik.com/free-vector/martial-arts-abstract-concept-vector-illustration_335657-6384.jpg?w=740&t=st=1686327824~exp=1686328424~hmac=ffbc9d5907c53dc48e16a3f9d160e8098b42eee05dfc90f2f417e9f4948b7baa",
+    "name": "Karate",
+    "instructorName": "Sensei Suzuki",
+    "availableSeats": 3,
+    "price": 99.99
+  },
+  {
+    "image": "https://img.freepik.com/free-photo/judo-fighters-showing-technical-skill-while-practicing-martial-arts-fight-club_155003-3170.jpg?w=740&t=st=1686327689~exp=1686328289~hmac=4b7501da4f260d09e6361e7208ddeeaf34671c465c400369173cca2ab9bf6f1f",
+    "name": "Taekwondo",
+    "instructorName": "Master Lee",
+    "availableSeats": 8,
+    "price": 89.99
+  },
+  {
+    "image": "https://img.freepik.com/free-photo/man-woman-fighting-training-aikido-white-studio-wall_155003-44543.jpg?w=740&t=st=1686327534~exp=1686328134~hmac=58a05ca6d58638a042892f23681217a8f9274586b174943138caa85f511ab0ae",
+    "name": "Judo",
+    "instructorName": "Sensei Kimura",
+    "availableSeats": 5,
+    "price": 119.99
+  },
+  {
+    "image": "https://img.freepik.com/free-photo/teenager-sportswear-boxing-isolated-blue-studio-background-neon-light-novice-male-caucasian-boxer-training-hard-working-out-kicking-sport-healthy-lifestyle-movement-concept_155003-17543.jpg?w=740&t=st=1686327454~exp=1686328054~hmac=63b8729e0dcb91c4febeeee5c38007101f2911318b53489821df9d99986e4d76",
+    "name": "Muay Thai",
+    "instructorName": "Coach Nguyen",
+    "availableSeats": 10,
+    "price": 69.99
+  }
+]
