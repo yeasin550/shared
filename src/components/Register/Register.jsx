@@ -4,11 +4,16 @@ import { useForm } from "react-hook-form";
 import { Link, useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
 import { AuthContext } from "../../providers/AuthProvider";
+// import { FaGoogle } from "react-icons/fa";
+import SocialLogin from "../../pages/Shared/SocialLogin/SocialLogin";
 
 
 const Register = () => {
   const { createUser, updateUserProfile } = useContext(AuthContext);
-  const navigate = useNavigate();
+     const navigate = useNavigate();
+    //  const location = useLocation();
+    //  const from = location.state?.from?.pathname || "/";
+
   const {
     register,
     handleSubmit,
@@ -16,6 +21,46 @@ const Register = () => {
     watch,
     reset,
   } = useForm();
+
+// const handleGoogleSignIn = () => {
+//   googleSignIn()
+//     .then((result) => {
+//       const loggedUser = result.user;
+//       console.log(loggedUser);
+//       const saveUser = {
+//         name: loggedUser.displayName,
+//         email: loggedUser.email,
+//         role: "student",
+//         profile: loggedUser.photoURL,
+//       };
+//       updateUserProfile(loggedUser.name, loggedUser.photoURL);
+//        fetch("http://localhost:5000/users", {
+//          method: "POST",
+//          headers: {
+//            "content-type": "application/json",
+//          },
+//          body: JSON.stringify(saveUser),
+//        })
+//          .then((res) => res.json())
+//          .then((data) => {
+//            if (data.insertedId) {
+//              reset();
+//              Swal.fire("Good job!", "Login successfully", "success");
+     
+//               navigate(from, { replace: true });
+//            }
+//          });
+
+
+
+//       // Swal.fire("Good job!", "Login successfully", "success");
+     
+//     })
+//     .catch((error) => {
+//       console.log(error);
+//     });
+// };
+
 
 const onSubmit = (data) => {
   createUser(data.email, data.password).then((result) => {
@@ -30,7 +75,7 @@ const onSubmit = (data) => {
           role: "student",
           profile: data.photoURL,
         };
-        fetch("http://localhost:5000/users", {
+        fetch("https://summer-camp-school-server-khaki.vercel.app/users", {
           method: "POST",
           headers: {
             "content-type": "application/json",
@@ -109,7 +154,7 @@ const onSubmit = (data) => {
               <div className="mt-1">
                 <input
                   {...register("name", {
-                    required: true
+                    required: true,
                   })}
                   id="name"
                   name="name"
@@ -274,6 +319,7 @@ const onSubmit = (data) => {
                 </button>
               </div>
             </div>
+           <SocialLogin></SocialLogin>
           </form>
         </div>
       </div>

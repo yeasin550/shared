@@ -4,7 +4,7 @@ import ClassesDetails from "./ClassesDetails";
 const Classes = () => {
   const [enrolClasses, setEnrolClasses] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/classes")
+    fetch("https://summer-camp-school-server-khaki.vercel.app/classes")
       .then((res) => res.json())
       .then((data) => {
         setEnrolClasses(data);

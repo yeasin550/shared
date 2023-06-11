@@ -1,13 +1,14 @@
 
 import { useContext, useState } from "react";
 import { useForm } from "react-hook-form";
-import { FaEye, FaGoogle } from "react-icons/fa";
+import { FaEye } from "react-icons/fa";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
 import { AuthContext } from "../../providers/AuthProvider";
+import SocialLogin from "../../pages/Shared/SocialLogin/SocialLogin";
 
 const Login = () => {
-  const { signIn, googleSignIn } = useContext(AuthContext);
+  const { signIn } = useContext(AuthContext);
   const [show, setShow] = useState(true)
     const navigate = useNavigate();
   const location = useLocation();
@@ -37,18 +38,18 @@ const showPassword = () => {
     });
   };
 
-const handleGoogleSignIn = () => {
-  googleSignIn()
-    .then((result) => {
-      const loggedUser = result.user;
-      console.log(loggedUser);
-      Swal.fire("Good job!", "Login successfully", "success");
-       navigate(from, { replace: true });
-    })
-    .catch((error) => {
-      console.log(error);
-    });
-};
+// const handleGoogleSignIn = () => {
+//   googleSignIn()
+//     .then((result) => {
+//       const loggedUser = result.user;
+//       console.log(loggedUser);
+//       Swal.fire("Good job!", "Login successfully", "success");
+//        navigate(from, { replace: true });
+//     })
+//     .catch((error) => {
+//       console.log(error);
+//     });
+// };
 
 
   return (
@@ -197,16 +198,7 @@ const handleGoogleSignIn = () => {
             </p>
           </div>
 
-          <div className="mt-6 text-center">
-            <p className="text-sm text-gray-600">Or log in with:</p>
-            <div
-              onClick={handleGoogleSignIn}
-              className="flex justify-center mt-2"
-            >
-              {/* Social login icons */}
-              <FaGoogle></FaGoogle>
-            </div>
-          </div>
+          <SocialLogin></SocialLogin>
         </div>
       </div>
     </div>
